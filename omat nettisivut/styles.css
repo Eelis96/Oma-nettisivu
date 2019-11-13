@@ -1,0 +1,112 @@
+html, body    {
+    margin: 0px;
+    padding: 0px;
+    color: black;
+    font-size: 24px;
+    font-family: sans-serif;
+    background-image: url(kuvat/joo.jpg);
+    text-align: justify;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
+}
+
+header  {
+    text-align: center;
+    height: 400px;
+    background-image: url(kuvat/obama.jpg);
+    border: solid 5px black;
+}
+
+a   {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    transition-duration: 0.3s;
+    margin-right: 10px;
+}
+
+a:hover {
+    background-color: white;
+    color: black;
+}
+
+.tietoa {
+    text-align: center;
+    border: solid 5px black;
+    margin-top: 100px;
+}
+
+.photo  {
+    background-image: url(kuvat/twitter.png);
+    display: inline-block;
+    height:100px;
+    width:100px;
+}
+
+nav li  {
+    display: inline-block;
+}
+
+nav {
+    background-color: black;
+}
+
+.footteri   {
+    text-align: center;
+}
+
+.topnav {
+    text-align: center;
+}
+
+.footer {
+    border: solid 5px black;
+    text-align: center;
+    margin-top: 109px;
+}
+
+h1, h2, p, a  {
+    -webkit-animation: color-change 0.3s infinite;
+    -moz-animation: color-change 0.3s infinite;
+    -o-animation: color-change 0.3s infinite;
+    -ms-animation: color-change 0.3s infinite;
+    animation: color-change 0.3s infinite;
+}
+
+@-webkit-keyframes color-change {
+    10% { color: red; }
+    30% { color: blue; }
+    50% { color: yellow; }
+    70% { color: green; }
+    90% { color: orange; }
+}
+@-moz-keyframes color-change {
+    10% { color: red; }
+    30% { color: blue; }
+    50% { color: yellow; }
+    70% { color: green; }
+    90% { color: orange; }
+}
+@-ms-keyframes color-change {
+    10% { color: red; }
+    30% { color: blue; }
+    50% { color: yellow; }
+    70% { color: green; }
+    90% { color: orange; }
+}
+@-o-keyframes color-change {
+    10% { color: red; }
+    30% { color: blue; }
+    50% { color: yellow; }
+    70% { color: green; }
+    90% { color: orange; }
+}
+@keyframes color-change {
+    10% { color: red; }
+    30% { color: blue; }
+    50% { color: yellow; }
+    70% { color: green; }
+    90% { color: orange; }
+}
