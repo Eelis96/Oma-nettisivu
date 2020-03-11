@@ -1,74 +1,14 @@
-html, body    {
-    margin: 0px;
-    padding: 0px;
-    color: black;
-    font-size: 24px;
+* {
+    box-sizing: border-box;
+  }
+
+body    {
     font-family: sans-serif;
-    background-image: url(kuvat/joo.jpg);
-    text-align: justify;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: auto;
-}
-
-header  {
     text-align: center;
-    height: 400px;
-    background-image: url(kuvat/obama.jpg);
-    border: solid 5px black;
+    background-color: black; 
 }
 
-a   {
-    text-decoration: none;
-    color: white;
-    font-size: 24px;
-    transition-duration: 0.3s;
-    margin-right: 10px;
-}
-
-a:hover {
-    background-color: white;
-    color: black;
-}
-
-.tietoa {
-    text-align: center;
-    border: solid 5px black;
-    margin-top: 100px;
-}
-
-.photo  {
-    background-image: url(kuvat/twitter.png);
-    display: inline-block;
-    height:100px;
-    width:100px;
-}
-
-nav li  {
-    display: inline-block;
-}
-
-nav {
-    background-color: black;
-}
-
-.footteri   {
-    text-align: center;
-}
-
-.topnav {
-    text-align: center;
-}
-
-.footer {
-    border: solid 5px black;
-    text-align: center;
-    margin-top: 109px;
-}
-
-h1, h2, p, a  {
-    -webkit-animation: color-change 0.3s infinite;
+h1  {-webkit-animation: color-change 0.3s infinite;
     -moz-animation: color-change 0.3s infinite;
     -o-animation: color-change 0.3s infinite;
     -ms-animation: color-change 0.3s infinite;
@@ -110,3 +50,50 @@ h1, h2, p, a  {
     70% { color: green; }
     90% { color: orange; }
 }
+
+nav {
+    background-color: white;
+}
+
+nav li  {
+    display: inline-block;
+    padding: 20px;
+}
+
+nav li a    {
+    text-decoration: none;
+    color: black;
+    transition-duration: 0.3s;
+    padding: 14px 16px ;
+}
+
+nav li a:hover  {
+    background-color: pink;
+    color: black;
+    border: solid black;
+}
+
+.top-nav    {
+    overflow: hidden;
+
+}
+
+div.gallery {
+    display: inline-block;
+    border: solid white;
+    transition-duration: 0.3s;
+}
+
+div.gallery:hover   {
+    border: solid pink;
+}
+
+header  {
+    height: 100px;
+}
+
+div.information {
+    padding: 30px;
+    color: white;
+}
+
